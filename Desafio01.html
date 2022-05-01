@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./style.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400&display=swap" rel="stylesheet">
+    <title>Formulário</title>
+</head>
+
+<body>
+    <div class="container">
+        <h2 class="title-register">Cadastro</h2>
+        <form action="" method="get">
+            <label>
+                Nome:
+                <input type="text" autofocus autocomplete="name" name="first-name" placeholder="Primeiro nome...">
+            </label>
+            <label>
+                Sobrenome:
+                <input type="text" autocomplete="family-name" name="last-name" placeholder="Sobremone...">
+            </label>
+            <label>
+                Endereço:
+                <input type="text" autocomplete="address-line1" name="address-line1" placeholder="Endereço">
+            </label>
+            <label>
+                Bairro:
+                <input type="text" autocomplete="address-line2" name="address-line2" placeholder="Bairro">
+            </label>
+            <label>
+                Cidade:
+                <input type="text" name="city-name" placeholder="Cidade">
+            </label>
+            <label>
+                Estado:
+                <input type="text" name="state" placeholder="Estado">
+            </label>
+            <label>
+                CEP:
+                <input type="text" autocomplete="postal-code" name="postal-code" placeholder="CEP">
+            </label>
+            <label>
+                Idade:
+                <input type="number" min="14" name="age" placeholder="00">
+            </label>
+            <label>
+                Data de Nascimento:
+                <div>
+                    <input type="date" autocomplete="bday" name="Birthday">
+                </div>
+            </label>
+            <label>
+                Onde voçê possui conta:
+                <div>
+                    <label class="checkbox">
+                        <input type="checkbox" name="instagram"> Instagram
+                    </label>
+                    <label class="checkbox">
+                        <input type="checkbox" name="facebook"> Facebook
+                    </label>
+                    <label class="checkbox">
+                        <input type="checkbox" name="youtube"> Facebook
+                    </label>
+                </div>
+            </label>
+            <label>
+                Sexo:
+                <div>
+                    <input type="radio" name="sex"> Masculino
+                    <input type="radio" name="sex"> Feminino
+                </div>
+            </label>
+            <label>
+                Cor dos olhos:
+                <input type="color" name="color-eyes">
+            </label>
+            <label>
+                Biografia:
+                <textarea name="story" rows="autocomplete" cols="autocomplete"> Escreva aqui... </textarea>
+            </label>
+
+            Foto do Perfil:
+            <input class="input-block" type="file" accept="image/*" name="picture">
+            </label>
+            <label>
+                Telefone:
+                <input class="input-block" type="tel" autocomplete="tel-area-code" name="tel">
+            </label>
+            <label>
+                Link do perfil do Linkedin:
+                <input class="input-block" type="url" name="Linkedin">
+            </label>
+            <label>
+                Senha:
+                <input class="input-block" type="password" name="password" minlength="6" maxlength="8">
+            </label>
+            <button class="button-clear" type="reset">Limpar</button>
+            <button class="button-submit" type="submit">Enviar</button>
+
+
+        </form>
+    </div>
+</body>
+
+</html>
+<style

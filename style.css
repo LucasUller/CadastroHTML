@@ -1,0 +1,63 @@
+*{
+    font-family: 'Nunito', sans-serif;
+}
+
+.container {
+    border: solid;
+    padding: 10px;
+    margin-top: 15px;
+    background-color: grey;
+}
+
+.title-register {
+    position: absolute;
+    font-size: 16px;
+    font-weight: 200;
+    top: -6px;
+    background-color: white;
+    padding-inline: 3px;
+}
+
+label {
+    display: block;
+    color: #3CFA68;
+    font-size: 18px;
+}
+
+input {
+    margin-bottom: 18px;
+    border: 2px color:#FAF43C;
+}
+
+.checkbox {
+    display: inline;
+}
+
+textarea {
+    display: block;
+    margin-bottom: 18px;
+}
+
+.input-block {
+    display: block;
+}
+
+button {
+    cursor: pointer;
+}
+
+.button-clear:hover {
+    background-color: #B6DE35;
+    width: 100px;
+    height: 25px;
+    color: white;
+    border: 2px color:#FAF43C    ;
+}
+
+.button-submit:hover {
+    background-color: #B6DE35;
+    width: 100px;
+    height: 25px;
+    color: white;
+    border: 2px color:#FAF43C   ;
+}
